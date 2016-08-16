@@ -1,0 +1,31 @@
+{
+  "name": "instui-canvas-theme",
+  "version": "1.0.0",
+  "description": "React component for theming InstUI with Canvas branding",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run client & npm run proxy",
+    "client": "webpack-dev-server --inline --content-base examples/",
+    "proxy": "node proxy"
+  },
+  "author": "Matt Zabriskie",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "color": "^0.11.3",
+    "instructure-ui": "^0.13.3",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.11.0",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
