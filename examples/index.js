@@ -8,7 +8,7 @@ import 'instructure-ui/dist/components/TabList.css';
 
 function Example() {
   return (
-    <InstUICanvasTheme host="http://127.0.0.1:3000">
+    <InstUICanvasTheme endpoint="http://127.0.0.1:3000/api/v1/brand_variables">
       <div>
         <h2>TabList</h2>
         <TabList>
